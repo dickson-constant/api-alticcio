@@ -1,1 +1,12 @@
-{}
+{
+    "name": "dickson-constant/api-alticcio",
+    "type": "library",
+    "description": "API Client",
+    "homepage": "https://github.com/dickson-constant/api-alticcio",
+    "authors": [
+        {
+            "name": "Geoffrey Pécro",
+            "email": "gpecro@dickson-constant.com"
+        }
+    ]
+}
