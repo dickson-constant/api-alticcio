@@ -1,12 +1,14 @@
 {
     "name": "dickson-constant/api-alticcio",
-    "type": "library",
-    "description": "API Client",
-    "homepage": "https://github.com/dickson-constant/api-alticcio",
-    "authors": [
-        {
-            "name": "Geoffrey Pécro",
-            "email": "gpecro@dickson-constant.com"
+    "autoload": {
+        "psr-4": {
+            "Dickson\\": ["src"]
         }
-    ]
+    },
+    "require": {
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    }
 }
