@@ -2,15 +2,12 @@
 
 namespace Dickson;
 
+/**
+ * DicksonAsset represents an HTTP Client for using Dickson API Asset
+ *
+ * @author Geoffrey Pécro <gpecro@dickson-constant.com>
+ */
 class DicksonAsset extends DicksonObject
 {
-    public function getAsset($options)
-    {
-        return $this->client->get("asset", $options);
-    }
-
-    public function getAssets($options)
-    {
-        return $this->client->get("assets", $options);
-    }
+    
 }
