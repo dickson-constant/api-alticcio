@@ -1,6 +1,10 @@
 ## Installation
 
-composer require dickson-constant/api-alticcio
+Requires PHP 5.6
+
+```
+$ composer require dickson-constant/api-alticcio
+```
 
 ## Exemple
 
