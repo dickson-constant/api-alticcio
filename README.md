@@ -11,7 +11,7 @@ $ composer require dickson-constant/api-alticcio
 ```php
 use Dickson\DicksonClient;
 
-require __DIR__.'/../vendor/autoload.php';
+require 'vendor/autoload.php';
 
 $dickson = new DicksonClient("c1cc64b682aea7c63c40abd735966781");
 
