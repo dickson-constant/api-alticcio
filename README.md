@@ -3,7 +3,7 @@
 Requires PHP 5.6
 
 ```
-$ composer require dickson-constant/api-alticcio:dev-master
+$ composer require dickson-constant/api-alticcio
 ```
 
 ## Exemple
