@@ -41,6 +41,11 @@ class DicksonClient
     public $asset;
 
     /**
+     * @var \Dickson\DicksonCategory
+     */
+    public $category;
+
+    /**
      * Constructor
      *
      * @param string     $key        The API key
@@ -55,6 +60,7 @@ class DicksonClient
 
         $this->product = new DicksonProduct($this);
         $this->asset = new DicksonAsset($this);
+        $this->category = new DicksonCategory($this);
     }
 
     /**
